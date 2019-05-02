@@ -1,0 +1,19 @@
+{
+    "name": "SerGek7/laravel-data-import",
+    "description": "COMMAND-LINE AND API BASED CSV IMPORT TOOL WITH AN ADMIN USER INTERFACE",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SerGek7",
+            "email": "mr.dock007@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataImport\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
