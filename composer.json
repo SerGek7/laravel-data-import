@@ -1,5 +1,5 @@
 {
-    "name": "SerGek7/laravel-data-import",
+    "name": "sergek7/laravel-data-import",
     "description": "COMMAND-LINE AND API BASED CSV IMPORT TOOL WITH AN ADMIN USER INTERFACE",
     "type": "library",
     "license": "MIT",
