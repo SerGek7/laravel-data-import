@@ -15,7 +15,7 @@ class DataImportServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
-        $this->loadMigrationsFrom(__DIR__ . 'database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->loadViewsFrom(__DIR__ . '/views', 'dataImport');
         $this->mergeConfigFrom(__DIR__ . '/config/data_import_config.php', 'dataImport');
     }
